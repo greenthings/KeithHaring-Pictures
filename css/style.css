@@ -1,0 +1,105 @@
+html,body{
+	margin: 0;
+	padding: 0;
+}
+body{
+	overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6,p {
+	margin: 0;
+	padding: 0;	
+}
+
+nav{
+	float: left;
+}
+ul{
+   list-style:none;
+   text-align: center;
+}
+li{ 
+	width: 250px;
+	height: 270px;
+	display: inline-block;
+	text-align: center;
+}
+
+
+
+#intro{
+	position: relative;
+	width:100%;
+	height:2200px;
+	background-color:#FF6602;
+
+}
+
+.mickey_andy{
+	position: absolute;
+	width: 390px;
+	height: 670px;
+	z-index: 8;
+}
+
+.info{
+	position:relative;
+    top: 150px;
+}
+
+.name, .k_m, .about{
+	position: absolute;
+	display: inline;
+	z-index: 8;
+}
+.name{
+	padding-left:600px;
+	font-size:70px;
+}
+.about{
+	width: 500px;
+	padding-left:600px;
+	padding-top: 100px;
+	font-weight: bold;
+}
+
+.k_m{
+	padding-left:1100px;
+	padding-bottom:90px;
+}
+
+.rock{
+	height: 1000px;
+	z-index: 9;
+}
+.white{ 
+position: absolute;	
+background-color: #FFFFFF; 
+margin-bottom: 500;
+width: 900px;
+height:360px;
+opacity: 0.3;
+left:500px;
+top:90px;
+}
+
+#works {
+	position: absolute;
+	background-color: white;
+	width: 1300px;
+	height: 1600px;
+	z-index: 9px;
+	left: 100px;
+	top: 530px; 
+}
+
+
+.title{
+	text-align: center;
+	padding-top:50px;
+	padding-bottom: 20px;
+}
+
+.owner{
+	text-align: right;
+	margin-right: 30px;
+}
